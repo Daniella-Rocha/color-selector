@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo', sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 141px;
+    box-shadow: 10px 0 25px #848282;
+}
+
+.title{
+    flex: 50%;
+    padding: 15px;
+    color: cornflowerblue;
+    font-size: 35px;
+}
+
+.menu{
+    flex: 50%;
+    padding: 15px;
+    color: cornflowerblue;
+    font-size: 18px;
+}
+
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #3c5075;
+}
+
+.menu a:hover{
+    color: cornflowerblue;
+}
+
+main{
+    display: flex;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 560px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #f0f8ff;
+}
+
+.color-name{
+    font-size: 2.5rem;
+    padding: 20px;
+    background-color: #5c5e5e;
+    border-radius: 15px;
+    color: #edf2f7;
+}
+
+.container li{
+    display: inline-block;
+    list-style: none;
+}
+
+#btn{
+    width: 180px;
+    height: 70px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #e1e4e4;
+    color: #4b4b4b;
+    font-size: 25px;
+}
+
+#btn:hover{
+    background-color: #2f2e2e;
+    color: #eff7f9;
+    border: none;
+}
+
+.btn-reset{
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #e1e4e4;
+    color: #5c5e5e;
+    font-size: 25px;
+}
+
+.btn-reset:hover{
+    background-color: #2f2e2e;
+    color: #fff;
+    border: none;
+}
+
+.btns{
+    display: flex;
+    list-style: none;
+}
+
+.btns li{
+    list-style: none;
+}
+
